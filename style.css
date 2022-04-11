@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Sans:wght@100 & display=swap');
+
+body {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    
+    background: #121214;
+    border-radius: 12px;
+    
+}
+h1{
+    position: absolute;
+    width: 229px;
+    height: 68px;
+    left: 517px;
+    top: 42px;
+    
+    background: url(logo.png);
+    
+    
+
+}
+h3 {
+    position: absolute;
+    width: 500px;
+    height: 42px;
+    left: 464px;
+    top: 183px;
+    
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: white;
+    
+}
+
+.container {
+  
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 700px;
+height: 194px;
+left: 272px;
+top: 286px;
+    
+}
+
+
+.box {
+    height: 160px;
+    width: 160px;
+    margin: 15px;
+    border-radius: 8px;
+    cursor: pointer ;
+    
+}
+.red{
+    background-image: url(avatar1.png);
+    color:  #9C9C9C;
+    
+
+}
+.blue {
+    background-image: url(avatar2.png);
+    color:  #9C9C9C;
+}
+.yellow {
+    background-image: url(avatar3.png);
+    color:  #9C9C9C;
+
+}
+.green {
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 17.53%;
+    background: #1E1E20;
+    color:  #9C9C9C
+
+}
+.botão {
+    color: white;
+    text-align: center;
+    border: 1.5px white solid;
+    border-radius: 8px;
+    
+    position: absolute;
+    left: 528px;
+    right: 546px;
+    top: 582px;
+    bottom: 88px;
+    cursor: pointer;
+}
+
+ .red:hover {
+    top: 3px;box-shadow:0 4px 4px #666;
+    position: relative;
+} .blue:hover {
+    top: 3px;box-shadow:0 4px 4px #666;
+    position: relative;
+} .yellow:hover {
+    top: 3px;box-shadow:0 4px 4px #666;
+    position: relative;
+    
+}
+   .green:hover {
+    top: 3px;box-shadow:0 4px 4px #666;
+    position: relative;
+} 
+   
+#Layla{
+    position: absolute;
+    top: 165px;
+    left: 067px;
+    color: #9C9C9C;
+font-family: 'IBM Plex Sans', sans-serif;
+    
+}
+#Lays{
+    position: absolute;
+    top: 165px;
+    left: 247px;
+    color: #9C9C9C;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+#Laysa{
+    position: absolute;
+    top: 165px;
+    left: 417px;
+    color: #9C9C9C;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+#Adicionarperfis{
+    position: absolute;
+    top: 165px;
+    left: 559px;
+    color: #9C9C9C;
+font-family: 'IBM Plex Sans', sans-serif;
+}
